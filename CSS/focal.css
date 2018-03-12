@@ -1,0 +1,108 @@
+.logo{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    transform: translateX(-110%) translateY(-50%);
+}
+
+
+
+
+.button {
+    background-color: grey; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 500px; 
+    border-radius: 12px;
+}
+
+.button2:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 20px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.button3 {
+    background-color: grey; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 50px; 
+    border-radius: 12px;
+}
+
+.button4:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 20px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+#home{
+     position: static;
+  
+}
+
+.col-sm-12 > h1{
+    color: white;
+    background-color: grey;
+    text-align: center;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.col-sm-8{
+    color: white;
+    background-color: grey;
+    text-align: center;
+    border-radius: 3px;
+       width: 120px; 
+    left: 25%;
+}
+
+#subtitle{
+    color: white;
+    background-color: grey;
+    text-align: center;
+    border-radius: 3px;
+    width: 50%;
+    left: 25%;
+}
+
+#images{
+    text-align: center;
+    border-radius: 3px;
+    width: 50%;
+    left: 25%;
+}
+
+.footer {
+   position: fixed;
+   padding: 10px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:  rgba(0,0,0,0.2);
+   color: white;
+   text-align: center;
+}
